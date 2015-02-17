@@ -14,7 +14,8 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="vm12"
-           fetch="https://github.com/VM12" />
+           fetch="https://github.com/VM12" 
+           revision="refs/heads/vm12" />
 	   
   <default revision="refs/heads/cm-12.0"
            remote="github"
@@ -581,12 +582,10 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <!--VM12 Configurations-->
-  </project>
   <!--VM12 Devices-->
   <!--VM12 Vendors-->
   <!--HTC Devices-->
   <!--Samsung Devices-->
   <!--VM12 adons-->
-  #fuckingvin#<project path="packages/apps/SlothWalls" name="packages_wallpapers_SlothWalls" />  
-  #fucking snakes#<project path="external/busybox" name="android_external_busybox" /> 
+  <project path="packages/apps/SlothWalls" name="packages_wallpapers_SlothWalls" remote="vm12" />
 </manifest>
