@@ -580,14 +580,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-    <!--VM12 Configurations-->
-  #<project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk" />
-  #<project path="build" name="platform_build" remote="vm12" revision="vm12" groups="pdk" >
-  #<copyfile src="core/root.mk" dest="Makefile" />
+  <!--VM12 Configurations-->
   </project>
-  #<project path="frameworks/base" name="android_frameworks_base" />
-  #<project path="vendor/vm12" name="vendor_VM12" />
-  #<project path="system/core" name="android_system_core" />
   <!--VM12 Devices-->
   <!--VM12 Vendors-->
   <!--HTC Devices-->
