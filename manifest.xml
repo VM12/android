@@ -11,7 +11,7 @@
            remote="vm12"
            sync-j="8" />
 
-  <project path="manifest" name="platform_manifest" />
+  <project path="manifest" name="manifest" />
   <!--AOSP repos-->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
