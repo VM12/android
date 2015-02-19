@@ -1,4 +1,4 @@
-[VM12 by Team Nocturnal](team-nocturnal.com)
+[VM12 by Team Nocturnal](http://team-nocturnal.com)
 ====================================
 
 
