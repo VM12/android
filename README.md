@@ -16,7 +16,7 @@ Create the build directory :
     $ cd ~/dev/vm12
 Init core trees without any device/kernel/vendor :
 
-    $ repo init -u https://github.com/vm12/android.git -b vm12
+    $ repo init -u https://github.com/vm12/platform_manifest.git -b vm12
 
 sync repo
 
