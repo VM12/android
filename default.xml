@@ -593,5 +593,5 @@
   <!--HTC Devices-->
   <!--Samsung Devices-->
   <!--VM12 adons-->
-  <project path="packages/apps/SlothWalls" name="packages_wallpapers_SlothWalls" remote="vm12" />
+  <project path="packages/wallpapers/SlothWalls" name="packages_wallpapers_SlothWalls" remote="vm12" />
 </manifest>
