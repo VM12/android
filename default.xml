@@ -587,10 +587,11 @@
   <!--VM12 Configurations-->
   <!--VM12 Devices-->
   <!--VM12 Vendors-->
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-12.0" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-12.0" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="tm" revision="cm-12.0" />
   <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="tm" revision="cm-12.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-12.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-12.0" />
   <!--HTC Devices-->
   <!--Samsung Devices-->
   <!--VM12 adons-->
