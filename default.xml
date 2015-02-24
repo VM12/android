@@ -590,7 +590,7 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-12.0" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="tm" revision="cm-12.0" />
   <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="tm" revision="cm-12.0" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-12.0" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="vm12" revision="vm12" />
   <!--HTC Devices-->
   <!--Samsung Devices-->
   <project path="kernel/samsung/klte" name="android_kernel_samsung_klte" remote="vm12" revision="vm12" />
