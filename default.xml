@@ -25,7 +25,7 @@
            sync-c="true"
            sync-j="8" />           
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="vm12" revision="vm12" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
