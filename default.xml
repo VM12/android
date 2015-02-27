@@ -17,7 +17,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="vm12"
-           fetch="https://github.com/" />
+           fetch="https://github.com/VM12/" />
 
 	   
   <default revision="refs/heads/cm-12.0"
@@ -25,7 +25,7 @@
            sync-c="true"
            sync-j="8" />           
 
-  <project path="build" name="VM12/android_build" remote="vm12" revision="vm12" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="vm12" revision="vm12" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -584,17 +584,17 @@
   <!--VM12 Configurations-->
   <!--VM12 Devices-->
   <!--VM12 Vendors-->
-  <project path="vendor/vm12" name="VM12/android_vendor_vm12" remote="vm12" revision="vm12" />
+  <project path="vendor/vm12" name="android_vendor_vm12" remote="vm12" revision="vm12" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-12.0" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-12.0" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-12.0" />
-  <project path="vendor/oppo" name="VM12/proprietary_vendor_oppo" remote="vm12" revision="vm12" />
+  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="vm12" revision="vm12" />
   <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="tm" revision="cm-12.0" />
-  <project path="vendor/samsung" name="VM12/android_vendor_samsung" remote="vm12" revision="vm12" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="vm12" revision="vm12" />
   <!--VM12 adons-->
-  <project path="platform_manifest" name="VM12/platform_manifest" remote="vm12" revision="vm12" />
-  <project path="frameworks/base" name="VM12/android_frameworks_base" remote="vm12" revision="vm12" />
-  <project path="packages/apps/Settings" name="VM12/android_packages_apps_Settings" remote="vm12" revision="vm12" />
-  <project path="packages/wallpapers/SlothWalls" name="VM12/packages_wallpapers_SlothWalls" remote="vm12" revision="vm12" />
+  <project path="platform_manifest" name="platform_manifest" remote="vm12" revision="vm12" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="vm12" revision="vm12" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vm12" revision="vm12" />
+  <project path="packages/wallpapers/SlothWalls" name="packages_wallpapers_SlothWalls" remote="vm12" revision="vm12" />
     <!--TEST-->
 </manifest>
