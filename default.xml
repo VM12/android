@@ -584,20 +584,13 @@
   <!--VM12 Configurations-->
   <!--VM12 Devices-->
   <!--VM12 Vendors-->
-  <project path="vendor/cm" name="android_vendor_cm" remote="vm12" revision="vm12" />
+  <project path="vendor/vm12" name="android_vendor_vm12" remote="vm12" revision="vm12" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-12.0" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-12.0" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-12.0" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="tm" revision="cm-12.0" />
   <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="tm" revision="cm-12.0" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="vm12" revision="vm12" />
-  <!--HTC Devices-->
-  <!--Samsung Devices-->
-  <project path="kernel/samsung/klte" name="android_kernel_samsung_klte" remote="vm12" revision="vm12" />
-  <project path="device/samsung/msm8974-common" name="android_device_samsung_msm8974-common" remote="vm12" revision="vm12" />
-  <project path="device/samsung/kltespr" name="android_device_samsung_kltespr" remote="vm12" revision="vm12" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="vm12" revision="vm12" /> 
-  <project path="device/samsung/klte-common" name="android_device_samsung_klte-common" remote="vm12" revision="vm12" />
   <!--VM12 adons-->
   <project path="frameworks/base" name="android_frameworks_base" remote="vm12" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="vm12" />
