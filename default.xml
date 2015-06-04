@@ -581,8 +581,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <!--VM12 Configurations-->
-  <!--CMSDK-->
-  <project path="vendor/cmsdk" name="VM12/cm_platform_sdk" remote="vm12" revision="vm12" />
   <!--VM12 Vendors-->
   <project path="vendor/vm12" name="VM12/android_vendor_vm12" remote="vm12" revision="vm12" />
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="tm" revision="cm-12.1" />
