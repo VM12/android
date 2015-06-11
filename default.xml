@@ -597,6 +597,5 @@
   <project path="packages/providers/ThemesProvider" name="VM12/android_packages_providers_ThemesProvider" remote="vm12" revision="vm12" />
   <project path="packages/services/Telecomm" name="VM12/android_packages_services_Telecomm" remote="vm12" revision="vm12" />
   <project path="packages/services/Telephony" name="VM12/android_packages_services_Telephony" remote="vm12" revision="vm12" />
-  <project path="packages/wallpapers/SlothWalls" name="VM12/packages_wallpapers_SlothWalls" remote="vm12" revision="vm12" />
     <!--TEST-->
 </manifest>
